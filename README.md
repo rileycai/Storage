@@ -1,6 +1,12 @@
+<p align="center">
+  <br>
+  <img width="200" src="./logo.svg" alt="logo of vue-awesome repository">
+  <br>
+  <br>
+</p>
+
 # Storage
 
-=====
 
 <p align="left">
   <a href="https://github.com/vuejs/vue">
@@ -28,11 +34,11 @@ vue2 + vuex + vue-router + webpack + axios + element-UI
 ## 开发
 ```bash
     # 克隆项目
- ? ?git clone https://github.com/zhenzhencai/Storage.git
+    git clone https://github.com/zhenzhencai/Storage.git
 
     # 安装依赖
     npm install
- ? ?//or # 建议不要用cnpm ?安装有各种诡异的bug 可以通过如下操作解决npm速度慢的问题
+    //or # 建议不要用cnpm ?安装有各种诡异的bug 可以通过如下操作解决npm速度慢的问题
     npm install --registry=https://registry.npm.taobao.org
 
     # 本地开发 开启服务
