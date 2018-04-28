@@ -7,7 +7,8 @@
     <el-col :span='24'>
       <div class="content">
         <el-form label-position="left" label-width="0px" class="demo-ruleForm card-box loginform" v-loading="login_actions.disabled" element-loading-text="正在登录..." :style="formOffset" :model='data' :rules="rule_data" ref='data'>
-          <img src="../../assets/icon.png" class='icon' alt="">
+          <img src="../../assets/logo.png" class='icon' alt="">
+          <h1 class="title">进销存<span>管理系统</span></h1?
           <el-form-item prop='username'>
             <el-input type="text" auto-complete="off" placeholder="账号" v-model='data.username' @keyup.native.enter="login('data')" class="input"></el-input>
           </el-form-item>
@@ -110,10 +111,18 @@ module.exports = LoginJs;
     }
 
     .icon {
-        width: 120px;
+        width: 80px;
         height: auto;
-        margin: 0 auto 20px;
+        margin: 0 auto 5px;
 
+    }
+    .title{
+      font-size: 1.5em;
+      color:#83c6ef;
+      margin-bottom: 30px;
+      span{
+        color: #429bcf;
+      }
     }
     #forget{
         float: right;

@@ -2,7 +2,8 @@
 <header class="head-nav">
   <el-row>
     <el-col :span="4" class='logo-container'>
-      <img src="../../../assets/logo-sm.png" class='logo' alt="">
+      <img src="../../../assets/logo.png" alt="">
+      <h1>进销存管理系统</h1>
     </el-col>
             <el-col :span="4" :offset="16" class="userinfo">
                 <span class='username'>
@@ -89,12 +90,15 @@ export default HeadNavJs;
     line-height: 36px;
     font-size: 18px;
     padding: 12px;
-}
-.logo {
-    height: 36px;
-    width: auto;
-    // margin-left: 12px;
-    // margin-top: 12px;
+    img{
+      height: 28px;
+      width: auto;
+      float:left;
+    }
+    h1{
+      font-size: 1.2em;
+      font-weight: 500;
+    }
 }
 
 .fa-user {
