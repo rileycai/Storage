@@ -48,10 +48,10 @@ vue2 + vuex + vue-router + webpack + axios + element-UI
 
 ## 效果图
 
-![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/登录.png)
+![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/001.png)
 
-![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/更新库存.png)
+![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/002.png)
 
-![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/统计分析.png)
+![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/003.png)
 
 
