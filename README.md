@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="200" src="./logo.svg" alt="logo of vue-awesome repository">
+  <img width="150" src="./logo.svg" alt="logo of vue-awesome repository">
   <br>
   <br>
 </p>
@@ -54,4 +54,5 @@ vue2 + vuex + vue-router + webpack + axios + element-UI
 
 ![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/003.png)
 
+![](https://github.com/zhenzhencai/Storage/blob/master/xgIMG/004.png)
 
